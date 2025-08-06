@@ -24,7 +24,7 @@ function Login({handleLogin}) {
   return (
     <div className='flex flex-col h-screen w-screen items-center justify-center static'>
         <div onClick={toggleSidebar} className={`absolute top-0 left-0 p-3 bg-red-500 m-5 rounded-full cursor-pointer z-50 transition-transform duration-300 ${ showSidebar ? 'rotate-135' : 'rotate-0' }`} title='Login adminData'>
-            <img className='h-5 w-5' src="src/assets/plus.png" alt="plus-sign" />
+            <img className='h-5 w-5' src="/Employee-Management-System/plus.png" alt="plus-sign" />
         </div>
         {/* Hamburger */}
         <div className={`overflow-auto fixed top-0 left-0 h-full w-72 bg-white shadow-lg z-40 px-3 pb-3 pt-20 transform transition-transform duration-300 ${ showSidebar ? 'translate-x-0' : '-translate-x-[110%]' }`}>
